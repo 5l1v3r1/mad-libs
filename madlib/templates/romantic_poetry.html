@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mad Libs</title>
+    </head>
+    <body>
+        <h1>Roses are</h1>
+        <form action="" method="post">
+          {% csrf_token %}
+          Adjective 1 <input id="adj1" type="text" name="adj1">
+          <br><br>
+          Adjective 2 <input type="text" name="adj2">
+          <br><br>
+          Noun 1 (plural) <input type="text" name="noun1">
+          <br><br>
+          Noun 2 <input type="text" name="noun2">
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
